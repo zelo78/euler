@@ -33,7 +33,6 @@ def main() -> None:
         print(f"<--- Case {i} --->")
         print(f" > {n=}")
         print(f" > {k=}")
-        print(" Start...")
         ts = time.time_ns()
         result = f(n, k)
         te = time.time_ns()
@@ -46,5 +45,20 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
-# Answer:  2903144925319290239
+# <--- Case 0 --->
+#  > n=6
+#  > k=1
+#  > result=12
+#  > Time elapsed 0.000005
+# <--- Case 1 --->
+#  > n=10
+#  > k=3
+#  > result=29
+#  > Time elapsed 0.000001
+# <--- Case 2 --->
+#  > n=100000000000000000
+#  > k=16677181699666569
+#  > result=2903144925319290239
+#  > Time elapsed 0.000025
+
 # Completed on Sun, 2 Feb 2025, 09:23
