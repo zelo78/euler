@@ -1,0 +1,21 @@
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[tool.flake8]
+accept-encodings = "utf-8"
+max-line-length = 120
+exclude = [
+    ".venv",
+    ".git",
+    "__pycache__",
+]
+extend-ignore = [
+    "E203",  # Whitespace before ':' (E203)
+    "E501",  # Line too long (82 > 79 characters) (E501)
+    "E701",  # Multiple statements on one line (colon) (E701)
+    "E704",  # Multiple statements on one line (def) (E704)
+    "W503",  # Line break occurred before a binary operator (W503)
+]

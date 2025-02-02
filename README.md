@@ -1,2 +1,7 @@
-# euler
-Problems from projecteuler.net
+# Project Euler
+
+Решение задач с сайта [Project Euler](https://projecteuler.net)
+
+За период март 2015 - октябрь 2023 я решил 423 задачи на этом сайте.
+
+Я буду выкладывать здесь решения старых задач и решать новые.
